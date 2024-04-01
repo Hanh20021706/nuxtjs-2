@@ -4,6 +4,8 @@
     <Feature />
     <Slider />
     <TabSection />
+    <SocialMedia />
+    <LinkContent />
     <Footer />
   </div>
 </template>
