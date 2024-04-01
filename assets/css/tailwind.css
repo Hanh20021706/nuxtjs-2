@@ -17,6 +17,6 @@ body {
     @apply bg-secondary text-white rounded-full;
   }
   .button-secondary {
-    @apply border-secondary border-[2px] rounded-full text-secondar;
+    @apply border-secondary border-[2px] rounded-full text-secondary;
   }
 }
