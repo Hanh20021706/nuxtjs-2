@@ -1,11 +1,10 @@
 <template>
-  <!-- phải có thẻ div bao bọc tất cả không thì sẽ bị lỗi -->
-  <div class="container">
+  <div>
     <Banner />
-    <!-- <h2>{{ $t("hello") }}</h2> -->
     <Feature />
-    <h2>title section</h2>
-    <TitleSection title="Title-section" />
+    <Slider />
+    <TabSection />
+    <Footer />
   </div>
 </template>
 

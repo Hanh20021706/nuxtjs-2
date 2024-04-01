@@ -1,7 +1,7 @@
 <template>
-  <div class="mb-[116px]">
+  <div class="mb-[116px] container">
     <TitleSection title="Tính năng của VNForm " />
-    <FeatureItemFeature class="mt-[24px]" />
+    <FeatureItemFeature />
   </div>
 </template>
 
