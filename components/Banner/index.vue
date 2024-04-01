@@ -1,5 +1,5 @@
 <template>
-  <div class="container banner p-[88px]">
+  <div class="container banner p-[88px] mb-[116px] mt-[64px]">
     <div class="grid grid-cols-12 gap-1 items-center">
       <div class="col-span-6">
         <h2
@@ -16,8 +16,11 @@
         </p>
         <Button
           title="Tạo khảo sát ngay"
-          classButton="button-primary px-[20px] py-[6px]"
-        />
+          classButton="button-primary px-[20px] py-[6px] gap-[10px]"
+          :iconRight="true"
+        >
+          <IconsRight />
+        </Button>
       </div>
       <div class="col-span-6">
         <img src="~images/banner.png" alt="" />

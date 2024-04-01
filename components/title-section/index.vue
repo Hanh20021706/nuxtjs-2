@@ -1,0 +1,12 @@
+<template>
+  <div class="flex flex-col items-center gap-[24px]">
+    <h2 class="text-[32px] font-bold">{{ title }}</h2>
+    <IconsFeature />
+  </div>
+</template>
+
+<script setup>
+defineProps(["title"]);
+</script>
+
+<style lang="scss" scoped></style>

@@ -34,7 +34,19 @@ export default {
   buildModules: [],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/google-fonts"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/google-fonts", "@nuxtjs/i18n"],
+  i18n: {
+    legacy: false,
+    locale: "en",
+    messages: {
+      en: {
+        welcome: "Welcome",
+      },
+      fr: {
+        welcome: "Bienvenue",
+      },
+    },
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
