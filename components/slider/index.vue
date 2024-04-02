@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container mb-[116px]">
     <TitleSection title="Các bước tạo biểu mẫu khảo sát" />
     <div class="carousel w-full">
       <div
@@ -26,6 +26,13 @@
           </div>
         </div>
       </div>
+    </div>
+    <!-- TODO: DEFAULT -->
+    <div class="flex justify-center gap-[12px]">
+      <Button class="w-[12px] h-[12px] bg-blueDark border rounded-full" />
+      <Button class="w-[12px] h-[12px] bg-gray border rounded-full" />
+      <Button class="w-[12px] h-[12px] bg-gray border rounded-full" />
+      <Button class="w-[12px] h-[12px] bg-gray border rounded-full" />
     </div>
   </div>
 </template>

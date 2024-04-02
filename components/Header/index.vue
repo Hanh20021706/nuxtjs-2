@@ -24,6 +24,7 @@
               Hướng dẫn</nuxt-link
             >
           </li>
+          <!-- TODO: CONFIG I18N -->
           <li>
             <HeaderSelectLang />
           </li>

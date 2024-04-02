@@ -20,6 +20,7 @@ module.exports = {
         blackLight: "#1d2939",
         gray: "#7C7C7C",
         gray2: "#0000001a",
+        gray3: "#e4e7ec",
         whiteLight: "#F2F2F2",
         blueDark: "#0C266F",
       },
