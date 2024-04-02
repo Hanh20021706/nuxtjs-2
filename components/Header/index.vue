@@ -1,5 +1,7 @@
 <template>
-  <div class="container grid grid-cols-12 gap-1 py-[32px] items-center">
+  <div
+    class="container grid grid-cols-12 gap-1 py-[32px] items-center bg-white"
+  >
     <div class="col-span-4">
       <div class="inline-block">
         <div
@@ -17,7 +19,7 @@
       <div class="">
         <ul class="flex gap-3 items-center">
           <li>
-            <nuxt-link to="/" class="flex items-center gap-[8px]">
+            <nuxt-link to="/" class="flex items-center gap-[8px] text-black">
               <IconsBook />
               Hướng dẫn</nuxt-link
             >

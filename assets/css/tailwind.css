@@ -4,8 +4,13 @@
 
 body {
   font-family: "Be Vietnam Pro", sans-serif;
+  background-color: transparent;
 }
 
+/* config color layout in disyui */
+#__layout {
+  background-color: #fff;
+}
 @layer components {
   .container {
     @apply max-w-[1520px] m-auto px-[200px];

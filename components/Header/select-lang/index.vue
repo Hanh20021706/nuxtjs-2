@@ -1,7 +1,7 @@
 <template>
   <div>
     <select
-      class="cursor-pointer border-none outline outline-0 transition-all focus:border-t-transparent focus:outline-0 disabled:border-0"
+      class="bg-white text-black cursor-pointer border-none outline outline-0 transition-all focus:border-t-transparent focus:outline-0 disabled:border-0"
     >
       <IconsVn />
       <option value="vn">

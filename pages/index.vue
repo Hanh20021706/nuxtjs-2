@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-white">
     <Banner />
     <Feature />
     <Slider />
@@ -10,11 +10,4 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "IndexPage",
-  data: () => ({
-    lang: "vi",
-  }),
-};
-</script>
+<script setup></script>

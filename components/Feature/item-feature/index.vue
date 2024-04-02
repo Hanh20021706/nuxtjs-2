@@ -9,7 +9,9 @@
         <div class="">
           <img :src="item.image" alt="" class="max-w-[86px] max-h-[86px]" />
         </div>
-        <h3 class="py-[16px] text-[24px] font-bold">{{ item.title }}</h3>
+        <h3 class="py-[16px] text-[24px] font-bold text-black">
+          {{ item.title }}
+        </h3>
         <p class="text-[16px] text-gray">
           {{ item.description }}
         </p>

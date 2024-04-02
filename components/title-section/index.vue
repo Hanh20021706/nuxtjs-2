@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col items-center gap-[24px] mb-[24px]">
-    <h2 class="text-[32px] font-bold">{{ title }}</h2>
+    <h2 class="text-[32px] font-bold text-black">{{ title }}</h2>
     <IconsFeature />
   </div>
 </template>
